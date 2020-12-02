@@ -1,0 +1,32 @@
+/*@font-face {
+	// название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
+	font-family: "RobotoSlab"; 
+	// адрес шрифта и тип 
+	src: url("RobotoSlab-VariableFont_wght") format("ttf"); 
+
+	font-family: "Garamond";
+	src: url("EBGaramond-VariableFont_wght") format("ttf");
+} */
+.main {
+	font-family: 'Roboto Slab', serif;
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+}
+.second {
+	font-family: 'EB Garamond', serif;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 50%;
+}
+
+.third {
+
+}
+
+.text {
+	font-family: 'Roboto Slab', serif;
+	font-size: 50%;
+	font-weight: normal;
+	letter-spacing: 1.5px;
+}

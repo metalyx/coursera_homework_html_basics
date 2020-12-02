@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>animation</title>
+	<style type="text/css">
+		.animation{
+			width: 150px;
+			height: 150px;
+			background: #f00;
+			/*transform: translateX(100px) translateY(100%) scale(2) rotate(145deg);*/
+			animation-name: anim;
+			animation-duration: 3s;
+			animation-fill-mode: forwards;
+			transition-property: transform, background-color;
+			transition-duration: .5s;
+		}
+		@keyframes anim {
+			0% {
+
+			}
+			33% {
+				transform: translateX(100px);
+			}
+			66% {
+				transform: translateX(100px) translateY(100%);
+			}
+			88% {
+				transform: translateX(100px) translateY(100%) scale(2);
+			}
+			100% {
+				transform: translateX(100px) translateY(100%) scale(2) rotate(145deg);
+			}
+		}
+		.animation:hover{
+			background-color: #ff0;
+		}
+	</style>
+</head>
+<body>
+	<div class="animation">
+
+	</div>
+</body>
+</html>
